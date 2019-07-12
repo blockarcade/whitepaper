@@ -1,0 +1,2 @@
+# whitepaper
+BlockArcade Whitepaper
