@@ -10,10 +10,9 @@ IOST (Internet of Services token) is a newer blockchain that solves many of the 
 
 Want to send me IOST? Send it to “octalmage”, it’s that easy!
 
+Additionally, and probably the most important point:
 
-> Additionally, and probably the most important point:
-We were able to get our app up and running on the IOST blockchain in a weekend, and it is fast!
-
+> We were able to get our app up and running on the IOST blockchain in a weekend, and it is fast!
 
 This says it all. We evaluated Bitcoin Lightning, EOS, and Tron for BlockArcade. After building a couple of prototypes and interacting with the different communities, IOST was the clear winner. With JavaScript as the smart contract language, great documentation, and Docker based local development tools, IOST won over my robotic developer heart.
 IOST also has very quick and cheap transactions, it’s transactions per second (TPS) is already better than Bitcoin and Ethereum combined, and IOST surpassed Ethereum in daily transaction volume a few weeks ago. All of this makes IOST a very attractive blockchain.
