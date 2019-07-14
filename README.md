@@ -30,7 +30,7 @@ With the introduction of the Lightning Network [@lightning_network] Bitcoin is a
 
 ## 02 Technology
 
-IOST (Internet of Services token) is a newer blockchain that solves many of the problems with the last 3 generations of blockchains. From the start of the project they’ve focused on the user experience, and it shows! Starting with the string account names. 
+IOST (Internet of Services token) [@iost] is a newer blockchain that solves many of the problems with the last 3 generations of blockchains. From the start of the project they’ve focused on the user experience, and it shows! Starting with the string account names. 
 
 Want to send me IOST? Send it to “octalmage”, it’s that easy!
 
