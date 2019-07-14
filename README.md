@@ -1,7 +1,7 @@
 ---
 title: "BlockArcade - An online decentralized arcade"
 date: "July 2019"
-author: "Jason Stallings, Software Developer"
+author: "Jason Stallings - Software Developer"
 titlepage: true
 titlepage-text-color: "FFFFFF"
 titlepage-rule-color: "FFFFFF"
@@ -21,6 +21,13 @@ logo-width: 240
 
 Our goal with BlockArcade is to emulate the traditional arcade experience, just on the decentralized web! This vision includes arcade tokens using IOST, tickets for prizes using a custom token called TIX, and a prize counter to spend your tickets!
 
+### Background
+
+Jason originally built StackWave for the Bitcoin blockchain back in 2014. For the first time ever, he had a distributed database that no single person has to maintain, and cost effective micro-transactions under $1. Unfortunately before he could get the project out Bitcoin transaction fees and times sky rocketed. StackWave no longer worked on Bitcoin, so he shelved the project. This is a problem Bitcoin still struggles with today [@wiki:Bitcoin_scalability_problem].
+With the introduction of the Lightning Network [@lightning_network] Bitcoin is an option again, but we believe there are better options out there. We’ve come a very long way since Bitcoin was originally released and we want to explore some of the other options out there.
+
+\newpage
+
 ## 02 Technology
 
 IOST (Internet of Services token) is a newer blockchain that solves many of the problems with the last 3 generations of blockchains. From the start of the project they’ve focused on the user experience, and it shows! Starting with the string account names. 
@@ -31,10 +38,12 @@ Additionally, and probably the most important point:
 
 > We were able to get our app up and running on the IOST blockchain in a weekend, and it is fast!
 
-This says it all. We evaluated Bitcoin Lightning, EOS, and Tron for BlockArcade. After building a couple of prototypes and interacting with the different communities, IOST was the clear winner. With JavaScript as the smart contract language, great documentation, and Docker based local development tools, IOST won over my robotic developer heart.
+This says it all. We evaluated Bitcoin Lightning, EOS, and Tron for BlockArcade. After building a couple of prototypes and interacting with the different communities, IOST was the clear winner. With JavaScript as the smart contract language, great documentation, and Docker based local development tools, it was an easy choice for us.
 IOST also has very quick and cheap transactions, it’s transactions per second (TPS) is already better than Bitcoin and Ethereum combined, and IOST has already surpassed Ethereum in daily transaction volume [@iost_daily_transactions_2019]. All of this makes IOST a very attractive blockchain.
 
-The IOST team also gets bonus points for hopping on a call with me almost instantly. The second they heard we were working on an IOST app, they wanted to help, and they have! Big thanks to Bing from the IOST team! I haven’t experienced this level of support in any other community, especially not a blockchain community! Bitcoin devs were anonymous (in the early days), Ethereum devs were unreachable celebrities (in my eyes), and I couldn’t find a good developer community for Tron.
+The IOST team also gets bonus points for hopping on a call with me almost instantly. The second they heard we were working on an IOST app, they wanted to help, and they have! Big thanks to Bing from the IOST team! I haven’t experienced this level of support in any other community, especially not a blockchain community!
+
+\newpage
 
 ## 03 Games
 
@@ -49,7 +58,7 @@ The idea is simple: Tap or click the grid to place the row of blocks. Any blocks
 
 The goal is to reach the top row with at least one block!
 
-At row 8 you'll be giving the option to take the minor prize (1.2x inserted amount) or go for the jackpot (10% of the contract balance). 
+At row 8 you'll be given the option to take the minor prize (1.2x inserted amount) or go for the jackpot (10% of the contract balance). 
 
 Currently StaveWave accepts IOST in increments of 10, 100, or 1000. Pay 100 or more to go for the major jackpot which is 10% of the contract balance. Pay 10 IOST to go for the minor jackpot which is 1%
 
@@ -61,7 +70,15 @@ At the time of writing the IOST put into StackWave is distributed in this fashio
 
 We have no plans to change the 1.2% developer cut, but we may tweak the amount going to the jackpot or TIX contract in the future. 
 
-StackWave payouts 1 TIX for every IOST spent playing. Users that choose to go for the major jackpot will be rewarded with a 2x payout on TIX. 
+StackWave payouts 1 TIX for every IOST spent playing. Users that choose to go for the major jackpot will be rewarded with a 2x payout on TIX.
+
+\vspace*{\fill}
+
+\tiny Chances of winning the minor and major jackpot depend on a combination of skill and chance. We've added an RNG component to keep the game fair and to keep bots from stealing the jackpot. Chances of winning the minor jackpot is ~90%, and chances of winning the major jackpot is ~10%. These percentages are subject to change in either direction based on the win rates we see.
+
+\normalsize
+
+\newpage
 
 ## 04 TIX Token
 
@@ -72,6 +89,8 @@ TIX is an IRC20 [@iost_irc_20] token implemented on the IOST blockchain.
 TIX is exchangeable for IOST through the TIX contract at a rate of 10 TIX = 1 IOST. 
 
 TIX total supply is 21,000,000,000 [@iostabc_token_tix]. 
+
+\newpage
 
 ## 05 Prize Counter
 
@@ -88,4 +107,18 @@ You will also be able to trade TIX for unique collectible art pieces created by 
 
 Our goal is to emulate the arcade as much as possible by providing a wide array of options for exchanging TIX. Any IOST left over in the TIX contract will be used for airdrops and other promotional events. 
 
-## 06 References
+\newpage
+
+## 06 Disclaimers
+
+You should expect to play games at BlockArcade. You should expect to earn TIX at BlockArcade. You should expect to be able to exchange your TIX for prizes at BlockArcade. Most importantly you should expect to have fun at BlockArcade! You should not expect to make profits at BlockArcade, just like any traditional arcade. 
+
+The TIX token's value is pegged to IOST at 10 TIX to 1 IOST through the TIX contract. 
+
+The value of TIX *WILL NOT* increase. 
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+\newpage
+
+## 07 References
