@@ -16,6 +16,10 @@ Now install pandoc and pandoc-citeproc
 brew install pandoc pandoc-citeproc
 ```
 
+Finally you need to install the LaTeX template, please follow the instuctions found here: 
+
+https://github.com/Wandmalfarbe/pandoc-latex-template#installation
+
 Then run the build script: 
 
 ```

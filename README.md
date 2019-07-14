@@ -2,9 +2,20 @@
 title: "BlockArcade - An online decentralized arcade"
 date: "July 2019"
 author: "Jason Stallings, Software Developer"
+titlepage: true
+titlepage-text-color: "FFFFFF"
+titlepage-rule-color: "FFFFFF"
+titlepage-color: "141122"
+titlepage-rule-height: 2
+logo: "block-arcade-logo.png"
+logo-width: 240
 ---
 
 # BlockArcade
+
+<p style="text-align: center;">
+  <img src="./block-arcade-logo.png" />
+</p>
 
 ## 01 Introduction
 
@@ -73,7 +84,7 @@ Currently our ideas for prizes are:
 * Other IOST IRC20 coins with partner dApps.
 * BlockArcade swag (shirts, stickers). 
 
-You will also be able to trade TIX for unique collectible art pieces created by artists either in the crypto community, or in our local community (Austin, Texas). These will be implemented as non-fungible tokens in the IOST blockchain using the IRC721 standard. 
+You will also be able to trade TIX for unique collectible art pieces created by artists either in the crypto community, or in our local community (Austin, Texas). These will be implemented as non-fungible tokens in the IOST blockchain using the IRC721 standard [@iost_irc_721]. 
 
 Our goal is to emulate the arcade as much as possible by providing a wide array of options for exchanging TIX. Any IOST left over in the TIX contract will be used for airdrops and other promotional events. 
 
