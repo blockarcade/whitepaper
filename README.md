@@ -1,3 +1,9 @@
+---
+title: "BlockArcade - An online decentralized arcade!"
+date: "July 2019"
+author: "Jason Stallings, Software Developer"
+---
+
 # BlockArcade
 
 ## 01 Introduction
@@ -15,7 +21,7 @@ Additionally, and probably the most important point:
 > We were able to get our app up and running on the IOST blockchain in a weekend, and it is fast!
 
 This says it all. We evaluated Bitcoin Lightning, EOS, and Tron for BlockArcade. After building a couple of prototypes and interacting with the different communities, IOST was the clear winner. With JavaScript as the smart contract language, great documentation, and Docker based local development tools, IOST won over my robotic developer heart.
-IOST also has very quick and cheap transactions, it’s transactions per second (TPS) is already better than Bitcoin and Ethereum combined, and IOST surpassed Ethereum in daily transaction volume a few weeks ago. All of this makes IOST a very attractive blockchain.
+IOST also has very quick and cheap transactions, it’s transactions per second (TPS) is already better than Bitcoin and Ethereum combined, and IOST has already surpassed Ethereum in daily transaction volume [@iost_daily_transactions_2019]. All of this makes IOST a very attractive blockchain.
 
 The IOST team also gets bonus points for hopping on a call with me almost instantly. The second they heard we were working on an IOST app, they wanted to help, and they have! Big thanks to Bing from the IOST team! I haven’t experienced this level of support in any other community, especially not a blockchain community! Bitcoin devs were anonymous (in the early days), Ethereum devs were unreachable celebrities (in my eyes), and I couldn’t find a good developer community for Tron.
 
@@ -50,13 +56,13 @@ StackWave payouts 1 TIX for every IOST spent playing. Users that choose to go fo
 
 TIX is the digital equivalent to tickets from an arcade. TIX is meant to reward users for playing BlockArcade games. 
 
-TIX is an IRC20 token implemented on the IOST blockchain. 
+TIX is an IRC20 [@iost_irc_20] token implemented on the IOST blockchain. 
 
 TIX is exchangeable for IOST through the TIX contract at a rate of 10 TIX = 1 IOST. 
 
-TIX total supply is 21,000,000,000. 
+TIX total supply is 21,000,000,000 [@iostabc_token_tix]. 
 
-## 05 Prize counter
+## 05 Prize Counter
 
 The prize counter is where you can exchange TIX for prizes, similar to a traditional arcade. This is where you'll be able to trade TIX for IOST, and more. 
 
@@ -67,6 +73,8 @@ Currently our ideas for prizes are:
 * Other IOST IRC20 coins with partner dApps.
 * BlockArcade swag (shirts, stickers). 
 
-You will also be able to trade TIX for unique collectible art pieces created by artists either in the community, or in Austin, TX. These will be implemented as non-fungible tokens in the IOST blockchain using the IRC721 standard. 
+You will also be able to trade TIX for unique collectible art pieces created by artists either in the crypto community, or in our local community (Austin, Texas). These will be implemented as non-fungible tokens in the IOST blockchain using the IRC721 standard. 
 
 Our goal is to emulate the arcade as much as possible by providing a wide array of options for exchanging TIX. Any IOST left over in the TIX contract will be used for airdrops and other promotional events. 
+
+## 06 References
