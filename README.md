@@ -1,5 +1,5 @@
 ---
-title: "BlockArcade - An online decentralized arcade!"
+title: "BlockArcade - An online decentralized arcade"
 date: "July 2019"
 author: "Jason Stallings, Software Developer"
 ---
