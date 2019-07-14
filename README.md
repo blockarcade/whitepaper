@@ -78,11 +78,13 @@ StackWave payouts 1 TIX for every IOST spent playing. Users that choose to go fo
 
 \normalsize
 
+![Early StaveWave mockup](./stackwave.png)
+
 \newpage
 
 ## 04 TIX Token
 
-TIX is the digital equivalent to tickets from an arcade. TIX is meant to reward users for playing BlockArcade games. 
+TIX is the digital equivalent to tickets from an arcade. TIX is meant to reward users for playing BlockArcade games.
 
 TIX is an IRC20 [@iost_irc_20] token implemented on the IOST blockchain. 
 
