@@ -1,7 +1,7 @@
 ---
 title: "BlockArcade - An online decentralized arcade"
 date: "July 2019"
-author: "Jason Stallings - Software Developer"
+author: "Jason Stallings, Joey Bacon"
 titlepage: true
 titlepage-text-color: "FFFFFF"
 titlepage-rule-color: "FFFFFF"
@@ -111,7 +111,15 @@ Our goal is to emulate the arcade as much as possible by providing a wide array 
 
 \newpage
 
-## 06 Disclaimers
+## 06 Roadmap
+
+### Coming Soon!
+
+We're still working on nailing down our roadmap.
+
+\newpage
+
+## 07 Disclaimers
 
 You should expect to play games at BlockArcade. You should expect to earn TIX at BlockArcade. You should expect to be able to exchange your TIX for prizes at BlockArcade. Most importantly you should expect to have fun at BlockArcade! You should not expect to make profits at BlockArcade, just like any traditional arcade. 
 
@@ -123,4 +131,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 \newpage
 
-## 07 References
+## 08 References
