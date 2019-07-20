@@ -51,7 +51,7 @@ The IOST team also gets bonus points for hopping on a call with me almost instan
 
 StackWave is the first game we plan to launch on BlockArcade with more games planned in the future.
 
-StaveWave is currently live on the IOST mainnet at:
+StaveWave is now live on the IOST mainnet at:
 https://blockarca.de
 
 The idea is simple: Tap or click the grid to place the row of blocks. Any blocks that aren’t aligned with the previous row’s blocks are lost and removed. 
@@ -64,9 +64,9 @@ Currently StaveWave accepts IOST in increments of 10, 100, or 1000. Pay 100 or m
 
 At the time of writing the IOST put into StackWave is distributed in this fashion:
 
-* 1.2% goes to an IOST account managed by the developers, batreas. Currently we're auto-voting all of those funds to our IOST node, blockarcade. 
-* 74.1% goes to the jackpot. This is kept in the StackWave contract. 
-* 24.7% goes to the TIX contract to issue TIX to the user. 
+* 2% goes to an IOST account managed by the developers, batreas. Currently we're auto-voting all of those funds to our IOST node, blockarcade. 
+* 73.5% goes to the jackpot. This is kept in the StackWave contract. 
+* 24.5% goes to the TIX contract to issue TIX to the user. 
 
 We have no plans to change the 1.2% developer cut, but we may tweak the amount going to the jackpot or TIX contract in the future. 
 
@@ -74,7 +74,7 @@ StackWave payouts 1 TIX for every IOST spent playing. Users that choose to go fo
 
 \vspace*{\fill}
 
-\tiny Chances of winning the minor and major jackpot depend on a combination of skill and chance. We've added an RNG component to keep the game fair and to keep bots from stealing the jackpot. Chances of winning the minor jackpot is ~90%, and chances of winning the major jackpot is ~10%. These percentages are subject to change in either direction based on the win rates we see.
+\tiny Chances of winning the minor and major jackpot depend on a mix of skill and chance. We've added an RNG component to keep the game fair and to keep bots from stealing the jackpot. Chances of winning the minor jackpot is ~90%, and chances of winning the major jackpot is ~10%. These percentages are subject to change in either direction based on the win rates we see.
 
 \normalsize
 
@@ -84,13 +84,17 @@ StackWave payouts 1 TIX for every IOST spent playing. Users that choose to go fo
 
 ## 04 TIX Token
 
-TIX is the digital equivalent to tickets from an arcade. TIX is meant to reward users for playing BlockArcade games.
+TIX is the digital equivalent to tickets from an arcade. TIX will reward users for playing BlockArcade games, win or loss!
 
 TIX is an IRC20 [@iost_irc_20] token implemented on the IOST blockchain. 
 
 TIX is exchangeable for IOST through the TIX contract at a rate of 10 TIX = 1 IOST. 
 
 TIX total supply is 21,000,000,000 [@iostabc_token_tix]. 
+
+![TIX Logo](./TIX.png)
+
+After a bunch of revisions we decided to keep the TIX logo as simple and minimal as possible while still having it clearly represent a ticket. We believe this logo accomplishes that even when it's as small as 15 pixels.
 
 \newpage
 
@@ -113,9 +117,46 @@ Our goal is to emulate the arcade as much as possible by providing a wide array 
 
 ## 06 Roadmap
 
-### Coming Soon!
+---------------------------------------------------------------------------------------------------------------------
+ Current                                 Near-term                                 Future
+------------------------------------- -------------------------------------- ----------------------------------------
+  Prize                               IOST Raffle                               Light Riders
+  Counter                          
 
-We're still working on nailing down our roadmap.
+  This will be a built in             Everyone loves a good raffle!             Another classic! Light Riders is
+  exchange letting users trade TIX    This raffle will be fun and fair.         a **true** PVP light bikes game.
+  for IOST and other prizes!                                                    similar to the Tron arcade machine.
+---------------------------------------------------------------------------------------------------------------------
+
+Table: This is a small visual to layout a rough timeline for some of the bigger items we're working on. 
+
+In addition to the items listed above, here's a few other roadmap items: 
+
+**IOST Desktop**
+
+Cross platform desktop application to allow users to keep track of their IOST accounts and perform common operations like claiming rewards and voting.
+
+![IOST Desktop Mock](./iost-desktop.jpg){width=50%}
+
+Learn more: https://github.com/blockarcade/iost-desktop
+
+\newpage
+
+**IOST WordPress plugin** 
+
+The plugin will allow users to sign-in to WordPress websites using their IOST account. We also plan to allow WordPress authors to accept IOST as tips for content. Both of these features will work with the IWallet Chrome extention and mobile wallets. 
+
+Many IOST node operators use WordPress to promote their nodes and take donations so we believe this will be valuable to the community.
+
+Learn more: https://github.com/blockarcade/wpiost
+
+### High Quality IOST T-Shirts
+
+We believe this will help get the attention of more developers. Our goal is to be able to offer t-shirts for TIX in at our prize counter in addition to selling them at an online store.
+
+![BlockArcade IOST T-Shirt](./tshirt.jpg){width=50%}
+
+Learn more: https://dapple.store
 
 \newpage
 
@@ -128,7 +169,5 @@ The TIX token's value is pegged to IOST at 10 TIX to 1 IOST through the TIX cont
 The value of TIX *WILL NOT* increase. 
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-\newpage
 
 ## 08 References
