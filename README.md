@@ -23,7 +23,7 @@ Our goal with BlockArcade is to emulate the traditional arcade experience, just 
 
 ### Background
 
-Jason originally built StackWave for the Bitcoin blockchain back in 2014. For the first time ever, he had a distributed database that no single person has to maintain, and cost effective micro-transactions under $1. Unfortunately before he could get the project out Bitcoin transaction fees and times sky rocketed. StackWave no longer worked on Bitcoin, so he shelved the project. This is a problem Bitcoin still struggles with today [@wiki:Bitcoin_scalability_problem].
+Jason originally built StackWave for the Bitcoin blockchain back in 2014. For the first time, he had a distributed database that no single person has to maintain, and cost effective micro-transactions under $1. Unfortunately before he could get the project out Bitcoin transaction fees and times sky rocketed. StackWave no longer worked on Bitcoin, so he shelved the project. This is a problem Bitcoin still struggles with today [@wiki:Bitcoin_scalability_problem].
 With the introduction of the Lightning Network [@lightning_network] Bitcoin is an option again, but we believe there are better options out there. We’ve come a very long way since Bitcoin was originally released and we want to explore some of the other options out there.
 
 \newpage
