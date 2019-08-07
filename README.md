@@ -68,7 +68,7 @@ At the time of writing the IOST put into StackWave is distributed in this fashio
 * 73.5% goes to the jackpot. This is kept in the StackWave contract. 
 * 24.5% goes to the TIX contract to issue TIX to the user. 
 
-We have no plans to change the 1.2% developer cut, but we may tweak the amount going to the jackpot or TIX contract in the future. 
+We have no plans to change the 2% developer cut, but we may tweak the amount going to the jackpot or TIX contract in the future. 
 
 StackWave payouts 1 TIX for every IOST spent playing. Users that choose to go for the major jackpot will be rewarded with a 2x payout on TIX.
 
