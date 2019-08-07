@@ -119,13 +119,14 @@ Our goal is to emulate the arcade as much as possible by providing a wide array 
 
 ---------------------------------------------------------------------------------------------------------------------
  Current                                 Near-term                                 Future
-------------------------------------- -------------------------------------- ----------------------------------------
-  Prize                               IOST Raffle                               Light Riders
-  Counter                          
+------------------------------------- ---------------------------------------- ----------------------------------------
+  IOST Raffle                            Money Blocks                             Light Riders
+                        
+  Everyone loves a good raffle!          A twist on Tetris where we randomly     Another classic! Light Riders is    
+  This raffle will be fun and fair       drop blocks filled with IOST and TIX.   a **true** PVP light bikes game. 
+  with plenty of ways to win.            Clear the blocks to get the cash!       Similar to the Tron arcade machine. 
 
-  This will be a built in             Everyone loves a good raffle!             Another classic! Light Riders is
-  exchange letting users trade TIX    This raffle will be fun and fair.         a **true** PVP light bikes game.
-  for IOST and other prizes!                                                    similar to the Tron arcade machine.
+  OnBlock.me support.                     NFT T-Shirts for the prize exchange.   Integrate fiat on-ramp for IOST.            
 ---------------------------------------------------------------------------------------------------------------------
 
 Table: This is a small visual to layout a rough timeline for some of the bigger items we're working on. 
