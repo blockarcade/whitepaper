@@ -126,7 +126,7 @@ Our goal is to emulate the arcade as much as possible by providing a wide array 
   This raffle will be fun and fair       drop blocks filled with IOST and TIX.   a **true** PVP light bikes game. 
   with plenty of ways to win.            Clear the blocks to get the cash!       Similar to the Tron arcade machine. 
 
-  OnBlock.me support.                     NFT T-Shirts for the prize exchange.   Integrate fiat on-ramp for IOST.            
+  OnBlock.me support.                    NFT T-Shirts for the prize exchange.   Integrate fiat on-ramp for IOST.            
 ---------------------------------------------------------------------------------------------------------------------
 
 Table: This is a small visual to layout a rough timeline for some of the bigger items we're working on. 
@@ -168,6 +168,8 @@ You should expect to play games at BlockArcade. You should expect to earn TIX at
 The TIX token's value is pegged to IOST at 10 TIX to 1 IOST through the TIX contract. 
 
 The value of TIX *WILL NOT* increase. 
+
+WE RESERVE THE RIGHT TO BLOCK PLAYERS AT ANY POINT FOR ANY REASON. When this happens the player will be unable to start new games.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
