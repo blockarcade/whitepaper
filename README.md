@@ -128,8 +128,8 @@ Our goal is to emulate the arcade as much as possible by providing a wide array 
 
   OnBlock.me support.                    NFT T-Shirts for the prize exchange.   Integrate fiat on-ramp for IOST.
 
-  Port the ENERGY token from Tron 
-  to IOST to onboard new users to 
+  Port the ENERGY token from Tron        NFT collectibe unique art pieces for
+  to IOST to onboard new users to        the prize exchange.
   IOST.
 
 ---------------------------------------------------------------------------------------------------------------------
