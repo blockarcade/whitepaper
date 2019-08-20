@@ -65,8 +65,8 @@ Currently StaveWave accepts IOST in increments of 10, 100, or 1000. Pay 100 or m
 At the time of writing the IOST put into StackWave is distributed in this fashion:
 
 * 2% goes to an IOST account managed by the developers, batreas. Currently we're auto-voting all of those funds to our IOST node, blockarcade. 
-* 73.5% goes to the jackpot. This is kept in the StackWave contract. 
-* 24.5% goes to the TIX contract to issue TIX to the user. 
+* 78.4% goes to the jackpot. This is kept in the StackWave contract. 
+* 19.6% goes to the TIX contract to issue TIX to the user. 
 
 We have no plans to change the 2% developer cut, but we may tweak the amount going to the jackpot or TIX contract in the future. 
 
@@ -74,7 +74,7 @@ StackWave payouts 1 TIX for every IOST spent playing. Users that choose to go fo
 
 \vspace*{\fill}
 
-\tiny Chances of winning the minor and major jackpot depend on a mix of skill and chance. We've added an RNG component to keep the game fair and to keep bots from stealing the jackpot. Chances of winning the minor jackpot is ~90%, and chances of winning the major jackpot is ~10%. These percentages are subject to change in either direction based on the win rates we see.
+\tiny Chances of winning the minor and major jackpot depend on a mix of skill and chance. We've added an RNG component to keep the game fair and to keep bots from stealing the jackpot. Chances of winning the minor jackpot is ~90%, and chances of winning the major jackpot is ~1%. These percentages are subject to change in either direction based on the win rates we see.
 
 \normalsize
 
