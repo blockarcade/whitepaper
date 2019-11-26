@@ -74,7 +74,7 @@ StackWave payouts 1 TIX for every IOST spent playing. Users that choose to go fo
 
 \vspace*{\fill}
 
-\tiny Chances of winning the minor and major jackpot depend on a mix of skill and chance. We've added an RNG component to keep the game fair and to keep bots from stealing the jackpot. Chances of winning the minor jackpot is ~90%, and chances of winning the major jackpot is ~1%. These percentages are subject to change in either direction based on the win rates we see.
+\tiny Chances of winning the minor and major jackpot depend on a mix of skill and chance. We've added an RNG component to keep the game fair and to keep bots from stealing the jackpot. Chances of winning the minor jackpot is ~80%, and chances of winning the major jackpot is ~2%. These percentages are subject to change in either direction based on the win rates we see.
 
 \normalsize
 
