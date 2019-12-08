@@ -9,4 +9,4 @@ npx mmdc -c graphs/config.json -i graphs/qrflow.mmd -o graphs/qrflow.png
 # npx mmdc -c graphs/config.json -i graphs/qrpie.mmd -o graphs/qrpie.png
 
 
-pandoc --filter pandoc-citeproc --from markdown --template eisvogel --bibliography=readme.bib -s README.md -o whitepaper.pdf
+pandoc --toc --filter pandoc-citeproc --from markdown --template eisvogel --bibliography=readme.bib -s README.md -o whitepaper.pdf

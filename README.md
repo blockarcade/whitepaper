@@ -9,6 +9,7 @@ titlepage-color: "141122"
 titlepage-rule-height: 2
 logo: "block-arcade-logo.png"
 logo-width: 240
+toc-own-page: true
 ---
 
 # BlockArcade
@@ -212,7 +213,7 @@ Table: This is a small visual to layout a rough timeline for some of the bigger 
 
 In addition to the items listed above, here's a few other roadmap items: 
 
-**IOST Desktop**
+### IOST Desktop
 
 Cross platform desktop application to allow users to keep track of their IOST accounts and perform common operations like claiming rewards and voting.
 
@@ -222,7 +223,7 @@ Learn more: https://github.com/blockarcade/iost-desktop
 
 \newpage
 
-**IOST WordPress plugin** 
+### IOST WordPress plugin
 
 The plugin will allow users to sign-in to WordPress websites using their IOST account. We also plan to allow WordPress authors to accept IOST as tips for content. Both of these features will work with the IWallet Chrome extention and mobile wallets. 
 
