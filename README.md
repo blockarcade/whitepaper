@@ -69,7 +69,7 @@ At the time of writing the IOST put into StackWave is distributed in this fashio
 
 We have no plans to change the 2% developer cut, but we may tweak the amount going to the jackpot or TIX contract in the future. 
 
-StackWave payouts 1 TIX for every IOST spent playing. Users that choose to go for the major jackpot will be rewarded with a 2x payout on TIX.
+StackWave payouts 1 TIX for every IOST spent playing. Players that choose to go for the major jackpot will be rewarded with a 2x payout on TIX.
 
 ![StackWave Gameplay](./stackwave_screen.jpg){ width=250px }
 
@@ -131,9 +131,23 @@ Other Breakdown
 
 \newpage
 
-## 04 TIX Token
+## 04 RFL Token
 
-TIX is the digital equivalent to tickets from an arcade. TIX will reward users for playing BlockArcade games, win or loss!
+RFL (Quantum Raffle Token) is the stakable token for the RFL raffle.
+
+RFL is an IRC21 [@iost_irc_21] token implemented on the IOST blockchain. 
+
+<!-- Quantum Raffle maintains 10 IOST per issued RFL for buy back at all times. RFL sold to Quantum Raffle will be burnt. -->
+
+RFL total supply is 200,000,000 [@iostabc_token_rfl]. 
+
+![RFL Logo](./rfl.png){ width=250px }
+
+\newpage
+
+## 05 TIX Token
+
+TIX is the digital equivalent to tickets from an arcade. TIX will reward players for playing BlockArcade games, win or loss!
 
 TIX is an IRC20 [@iost_irc_20] token implemented on the IOST blockchain. 
 
@@ -141,13 +155,11 @@ TIX is exchangeable for IOST through the TIX contract at a rate of 10 TIX = 1 IO
 
 TIX total supply is 21,000,000,000 [@iostabc_token_tix]. 
 
-![TIX Logo](./TIX.png)
-
-After a bunch of revisions we decided to keep the TIX logo as simple and minimal as possible while still having it clearly represent a ticket. We believe this logo accomplishes that even when it's as small as 15 pixels.
+![TIX Logo](./tix.png){ width=250px }
 
 \newpage
 
-## 05 Prize Counter
+## 06 Prize Counter
 
 The prize counter is where you can exchange TIX for prizes, similar to a traditional arcade. This is where you'll be able to trade TIX for IOST, and more. 
 
@@ -162,9 +174,28 @@ You will also be able to trade TIX for unique collectible art pieces created by 
 
 Our goal is to emulate the arcade as much as possible by providing a wide array of options for exchanging TIX. Any IOST left over in the TIX contract will be used for airdrops and other promotional events. 
 
+## 07 TIX Leaderboard
+
+2% of every TIX issued to players is added to a leaderboard reward pool. 80% of this pool will be distributed to the 10 players that were issued the most TIX during the previous week every Monday at 4:59 UTC. 
+
+Leaderboard payout breakdown (based on # of TIX earned):
+
+  1. 50%
+  2. 25%
+  3. 10%
+  4. 2.5%
+  5. 2.5%
+  6. 2.5%
+  7. 2.5%
+  8. 2%
+  9. 2%
+  10. 1%
+
+20% of the reward pool will roll to the next weeks pool.
+
 \newpage
 
-## 06 Roadmap
+## 08 Roadmap
 
 ---------------------------------------------------------------------------------------------------------------------
  Current                                 Near-term                                 Future
@@ -209,7 +240,7 @@ Learn more: https://dapple.store
 
 \newpage
 
-## 07 Disclaimers
+## 09 Disclaimers
 
 You should expect to play games at BlockArcade. You should expect to earn TIX at BlockArcade. You should expect to be able to exchange your TIX for prizes at BlockArcade. Most importantly you should expect to have fun at BlockArcade! You should not expect to make profits at BlockArcade, just like any traditional arcade. 
 
@@ -221,4 +252,4 @@ WE RESERVE THE RIGHT TO BLOCK PLAYERS AT ANY POINT FOR ANY REASON. When this hap
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## 08 References
+## 10 References
