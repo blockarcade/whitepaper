@@ -1,0 +1,4 @@
+{
+  "theme": "neutral",
+  "themeCSS": ".cluster > .label { color: white; } .label foreignObject { font-size: 14px; }"
+}

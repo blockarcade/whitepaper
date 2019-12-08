@@ -1,0 +1,22 @@
+{
+  "name": "whitepaper",
+  "version": "1.0.0",
+  "description": "--- title: \"BlockArcade - An online decentralized arcade\" date: \"July 2019\" author: \"Jason Stallings, Joey Bacon\" titlepage: true titlepage-text-color: \"FFFFFF\" titlepage-rule-color: \"FFFFFF\" titlepage-color: \"141122\" titlepage-rule-height: 2 logo: \"block-arcade-logo.png\" logo-width: 240 ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockarcade/whitepaper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blockarcade/whitepaper/issues"
+  },
+  "homepage": "https://github.com/blockarcade/whitepaper#readme",
+  "dependencies": {
+    "mermaid.cli": "^0.5.1"
+  }
+}

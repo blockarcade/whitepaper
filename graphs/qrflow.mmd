@@ -1,0 +1,35 @@
+graph LR
+  BBBB(Buy 1 Ticket)-->B
+  CCCC(Buy 1 Ticket)-->C
+  DDDD(Buy 1 Ticket)-->D
+  AAAAAA(After 10 rounds)-->AA
+  AAAAAAA(After every round)-->AAA
+  subgraph RFL Raffle
+  AAA[Pick 15 random staked RFL tokens]
+  AAA-->BBB{Won Raffle?}
+  BBB-->|Won 1 or more times| CCC[Receive 18,500 TIX per win]
+  end
+  subgraph Jackpot Raffle
+  AA[Pick 2 random JPT token holders]
+  AA-->BB{Win 1st}
+  BB-->CC[Receive 1,000,000 TIX]
+  CC-->FF
+  AA-->DD{Win 2nd}
+  DD-->EE[Receive 110,000 TIX]
+  EE-->FF
+  AA-->GG{Lose}
+  GG-->FF
+  FF[JPT tokens are burnt]
+  end
+
+  subgraph 50/50 Raffles
+  B[Small<br />100 at 10 IOST] --> E[Receive 1 RFL per Ticket]
+  C[Medium<br />100 at 100 IOST] --> F[Receive 10 RFL per Ticket]
+  D[Large<br />100 at 1000 IOST] --> G[Receive 10 RFL per Ticket]
+  E --> H{Won raffle?}
+  F --> H
+  G --> H
+  H -->|Won Small| L[Receive 5000 TIX<br />1 JPT]
+  H -->|Won Medium| M[Receive 50000 TIX<br />10 JPT]
+  H -->|Won Large| N[Receive 500000 TIX<br />100 JPT]
+  end

@@ -49,16 +49,15 @@ The IOST team also gets bonus points for hopping on a call with me almost instan
 
 ### StaveWave 
 
-StackWave is the first game we plan to launch on BlockArcade with more games planned in the future.
+![](./stackwave.jpg)
 
-StaveWave is now live on the IOST mainnet at:
-https://blockarca.de
+StackWave was the first game launched on BlockArcade with more games planned in the future. 
 
 The idea is simple: Tap or click the grid to place the row of blocks. Any blocks that aren’t aligned with the previous row’s blocks are lost and removed. 
 
 The goal is to reach the top row with at least one block!
 
-At row 8 you'll be given the option to take the minor prize (1.2x inserted amount) or go for the jackpot (10% of the contract balance). 
+At row 8 you'll be given the option to take the minor prize (1.2x inserted amount) or go for the jackpot (10% of the contract balance).
 
 Currently StaveWave accepts IOST in increments of 10, 100, or 1000. Pay 100 or more to go for the major jackpot which is 10% of the contract balance. Pay 10 IOST to go for the minor jackpot which is 1%
 
@@ -72,13 +71,63 @@ We have no plans to change the 2% developer cut, but we may tweak the amount goi
 
 StackWave payouts 1 TIX for every IOST spent playing. Users that choose to go for the major jackpot will be rewarded with a 2x payout on TIX.
 
-\vspace*{\fill}
+![StackWave Gameplay](./stackwave_screen.jpg){ width=250px }
 
-\tiny Chances of winning the minor and major jackpot depend on a mix of skill and chance. We've added an RNG component to keep the game fair and to keep bots from stealing the jackpot. Chances of winning the minor jackpot is ~80%, and chances of winning the major jackpot is ~2%. These percentages are subject to change in either direction based on the win rates we see.
+Chances of winning the minor and major jackpot depend on a mix of skill and chance. We've added an RNG component to keep the game fair and to keep bots from stealing the jackpot. Chances of winning the minor jackpot is ~80%, and chances of winning the major jackpot is ~2%. These percentages are subject to change in either direction based on the win rates we see.
 
-\normalsize
+\newpage
 
-![Early StaveWave mockup](./stackwave.png)
+### Quantum Raffle
+
+![](./qr.jpg)
+
+Quantum Raffle is a fun and intricate twist on the classic 50/50 raffle. Quantum Raffle is built on the IOST blockchain, and utilizes Chainlink to pull random numbers from the ANU Quantum Random Numbers Server [@qrnganu]. 
+
+Quantum Raffle contains 5 raffles in total. 3 50/50 raffles (small, medium, and large), a RFL raffle for stakers, and the jackpot raffle for JPT winners.
+
+To get started with Quantum Raffle you will want to purchase one or more tickets for the 3 50/50 raffles.
+
+**Small, Medium, and Large raffles**
+
+--------------------------------------------------------------------------------------
+ Raffle   Cost       # of Tickets   RFL Mining Rate    Prize
+-------- ---------- -------------- ------------------ -------------------------------
+ Small    10 IOST    100            1 RFL per ticket   Win 5000 TIX and 1 JPT token
+
+ Medium   100 IOST   100            10 RFL per ticket  Win 50000 TIX and 10 JPT token
+
+ Large    100 IOST   1000           10 RFL per ticket  Win 500000 TIX and 100 JPT token
+
+--------------------------------------------------------------------------------------
+
+Once all tickets are sold for a raffle a single winner will be chosen and sent the prize. The 3 raffles will reset once all tickets have been sold, and the new round begins.
+
+**RFL raffle**
+
+When you purchase tickets for the small, medium, or large raffle you will receive RFL tokens win or lose. RFL tokens are unique in that they allow players to participate in the RFL raffle passively. 
+
+The RFL raffle will run after each round. A round ends when all 3 50/50 raffles sell out and are drawn.
+
+15 random staked RFL tokens will be rewarded with 18,500 TIX. Each staked token is assigned a number, then 15 random numbers are chosen and matched to the RFL token owners. This means it is possible to win more than once each RFL raffle.
+
+Any RFL tokens staked will be automatically entered into all future RFL raffles until unstaked. Unstaking takes 4 hours.
+
+**Jackpot (JPT) raffle**
+
+Every 10 rounds of the 3 50/50 raffles, we will draw the jackpot raffle and pick 2 winners. 1st prize is 1 million TIX. 2nd prize: 110,000 TIX. Each JPT staked (or owned, JPTs are staked instantly) is 1 entry into the jackpot raffle. All JPT are burned after the jackpot raffle is drawn.
+
+**Diagrams**
+
+![Quantum Raffle IOST Distribution](./graphs/qrpie.png)
+
+Other Breakdown
+
+* 1% Marketing
+* 1% Development
+* 1% StackWave Jackpot
+* 2% TIX Leaderboard
+
+![Quantum Raffle User Flow Chart](./graphs/qrflow.png)
 
 \newpage
 
@@ -120,18 +169,12 @@ Our goal is to emulate the arcade as much as possible by providing a wide array 
 ---------------------------------------------------------------------------------------------------------------------
  Current                                 Near-term                                 Future
 ------------------------------------- ---------------------------------------- ----------------------------------------
-  Quantum Raffle                         CryptoRun                                Money Blocks
-                        
+  **Quantum Raffle**                     **CryptoRun**                            **Money Blocks**               
   Everyone loves a good raffle!          A retro racing game where you get to     A twist on Tetris where we randomly    
   This raffle will be fun and fair       keep the IOST you pick up on the road.   drop blocks filled with IOST and TIX.
   with plenty of ways to win.            Let's see who gets the best lap time!    Clear the blocks to get the cash! 
 
-  NFT T-Shirts for the prize exchange.   Arcade Coin                              Integrate fiat on-ramp for IOST.
-
-                                         NFT collectibe unique art pieces for
-                                         the prize exchange.
-  
-
+  Arcade Coin                            IOST Account Creation
 ---------------------------------------------------------------------------------------------------------------------
 
 Table: This is a small visual to layout a rough timeline for some of the bigger items we're working on. 
